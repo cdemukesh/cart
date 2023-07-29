@@ -1,5 +1,5 @@
 pipeline {
-    agents { label 'WS' }
+    agent { label 'WS' }
     stages {
         stage('Lint Checks') {                                          // Start of the stages
             steps {
